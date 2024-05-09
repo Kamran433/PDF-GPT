@@ -1,6 +1,36 @@
-# AI-Powered Chat Interface for Querying PDF Documents Using Vector Similarity Search
+# PDF-GPT: Vector Search for Documents
 
-Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
+## Description
+
+PDF-GPT is an interactive application that leverages the power of AI to search through PDF documents. The application uses a chat interface, allowing users to ask questions about the content of the PDFs. The AI model then retrieves relevant documents from a Pinecone vector store, providing users with accurate and contextually relevant responses.
+
+The application also includes features for user feedback, with like/dislike buttons for each AI response and a feedback window for users to provide more detailed input. This feedback is used to continuously improve the AI's performance.
+
+Built with React and Next.js, this application showcases the potential of AI in enhancing information retrieval and user interaction.
+
+## Challenges and Difficulties
+
+While developing this application, I faced several challenges and difficulties:
+
+1. **Planning and Architecture:** Figuring out the architecture of the application was the first challenge. I researched various methodologies and drew a framework for the application.
+
+![D2DA421B-0D1A-46D9-AFE5-1BD26E04E75C](https://github.com/Kamran433/PDF-GPT/assets/102954239/9bf657dd-7db4-48e2-ac29-00d8795a9c85)
+
+
+2. **Getting API Keys:** Getting the API keys for ChatGPT and Pinecone was another challenge. While it was relatively easy to get access to Pinecone's index names, environment name, and API key, getting free tokens or credits to use the ChatGPT API was difficult. I could only test with a limited amount of credit left in my original ChatGPT account.
+
+3. **Choosing Libraries:** Deciding on which libraries to use was another task. I decided to use Langchain and OpenAI's ChatGPT to make the website more interactive.
+
+4. **Designing the UI:** I wanted to create a good user interface, so I researched designs and patterns and came up with a UI design.
+
+![1A277FF0-08CF-4ACB-9FD6-86AF3ECA4282](https://github.com/Kamran433/PDF-GPT/assets/102954239/ee4017cd-adea-47d0-a9fb-87b41dbeb05f)
+
+
+5. **Implementing Features:** Implementing the like/dislike and copy buttons for the prompts was a bit difficult.
+
+6. **Time Management:** My exams were going on at the same time, so managing time was a real challenge. Due to time constraints, I couldn't completely develop a method for the model to learn from feedbacks, and I couldn't install voice overs for transcribing text from voices.
+
+Despite these challenges, I was able to create this application and learned a lot in the process.
 
 **If you run into errors, please review the troubleshooting section further down this page.**
 
