@@ -1,36 +1,4 @@
-# PDF-GPT: Vector Search for Documents
-
-## Description
-
-PDF-GPT is an interactive application that leverages the power of AI to search through PDF documents. The application uses a chat interface, allowing users to ask questions about the content of the PDFs. The AI model then retrieves relevant documents from a Pinecone vector store, providing users with accurate and contextually relevant responses.
-
-The application also includes features for user feedback, with like/dislike buttons for each AI response and a feedback window for users to provide more detailed input. This feedback is used to continuously improve the AI's performance.
-
-Built with React and Next.js, this application showcases the potential of AI in enhancing information retrieval and user interaction.
-
-## Features
-
-- **Interactive Chat Interface:** Ask questions about the content of the PDFs and get answers from an AI model.
-- **Vector Search:** Retrieves relevant documents from a Pinecone vector store.
-- **User Feedback:** Like/dislike buttons for each AI response and a feedback window for more detailed input.
-- **Continuous Improvement:** Uses user feedback to improve the AI's performance.
-- **Ensure seamless communication between the chat interface and the AI backend, displaying relevant PDF text segments as chat responses.
-- **Enables real-time user queries and displaying API responses in a conversational format.
-
-## Technologies Used
-
-- React
-- Next.js
-- Pinecone
-- ChatGPT API
-- pdf-parse
-- TypeScript
-- JavaScript
-- CSS
-- Tailwind
-- Bootstrap
-
-## Setup and Installation
+# AI-Powered Chat Interface for Querying PDF Documents Using Vector Similarity Search
 
 Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
 
@@ -110,12 +78,3 @@ In general, keep an eye out in the `issues` and `discussions` section of this re
 - Make sure your pinecone namespace is in lowercase.
 - Pinecone indexes of users on the Starter(free) plan are deleted after 7 days of inactivity. To prevent this, send an API request to Pinecone to reset the counter before 7 days.
 - Retry from scratch with a new Pinecone project, index, and cloned repo.
-
-
-## Contributing
-
-Create a Pull-Request to contribute to the project, making it better and more advanced with time
-
-## License
-
-This Repository is using MIT Licence
